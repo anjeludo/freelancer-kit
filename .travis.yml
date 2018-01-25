@@ -34,4 +34,4 @@ after_success:
 - docker push $IMAGE_NAME
 deploy:
   provider: heroku
-  api_key: "***REMOVED***"
+  api_key: $HEROKU_API_KEY
